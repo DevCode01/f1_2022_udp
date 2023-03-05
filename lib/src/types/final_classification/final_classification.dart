@@ -22,7 +22,7 @@ struct FinalClassificationData
 };
 */
 
-import 'package:f1_2021_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
 
 class FinalClassificationData {
   /// Finishing position

@@ -77,9 +77,9 @@ struct PacketEventData
 
 import 'dart:typed_data';
 
-import 'package:f1_2021_udp/src/parser/parser.dart';
-import 'package:f1_2021_udp/src/types/event/event.dart';
-import 'package:f1_2021_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/parser/parser.dart';
+import 'package:f1_2022_udp/src/types/event/event.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
 import '../../type_extensions/list_extensions.dart';
 
 class EventParser extends Parser<PacketEventData> {

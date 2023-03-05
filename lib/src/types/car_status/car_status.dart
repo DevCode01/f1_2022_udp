@@ -40,7 +40,7 @@ struct CarStatusData
 };
 */
 
-import 'package:f1_2021_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
 
 class CarStatusData {
   /// Traction control - 0 = off, 1 = medium, 2 = full

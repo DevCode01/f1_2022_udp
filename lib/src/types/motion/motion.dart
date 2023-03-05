@@ -24,7 +24,7 @@ struct CarMotionData
 };
 */
 
-import 'package:f1_2021_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
 
 class CarMotionData {
   /// World space X position

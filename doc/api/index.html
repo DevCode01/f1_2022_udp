@@ -5,8 +5,8 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1, user-scalable=no">
   <meta name="generator" content="made with love by dartdoc 4.1.0">
-  <meta name="description" content="f1_2021_udp API docs, for the Dart programming language.">
-  <title>f1_2021_udp - Dart API docs</title>
+  <meta name="description" content="f1_2022_udp API docs, for the Dart programming language.">
+  <title>f1_2022_udp - Dart API docs</title>
 
 
   
@@ -30,9 +30,9 @@
 <header id="title">
   <button id="sidenav-left-toggle" type="button">&nbsp;</button>
   <ol class="breadcrumbs gt-separated dark hidden-xs">
-    <li class="self-crumb">f1_2021_udp package</li>
+    <li class="self-crumb">f1_2022_udp package</li>
   </ol>
-  <div class="self-name">f1_2021_udp</div>
+  <div class="self-name">f1_2022_udp</div>
   <form class="search navbar-right" role="search">
     <input type="text" id="search-box" autocomplete="off" disabled class="form-control typeahead" placeholder="Loading search...">
   </form>
@@ -44,13 +44,13 @@
   <div id="dartdoc-main-content" class="main-content">
       
 <section class="desc markdown">
-  <h1 id="f1_2021_udp">f1_2021_udp</h1>
-<p>Package for listening Telemetry data from F1 2021 game.</p>
+  <h1 id="f1_2022_udp">f1_2022_udp</h1>
+<p>Package for listening Telemetry data from F1 2022 game.</p>
 <h2 id="example">Example</h2>
-<pre class="language-dart"><code>import 'package:f1_2021_udp/src/F1_2021_telemery_listener.dart';
+<pre class="language-dart"><code>import 'package:f1_2022_udp/src/F1_2022_telemery_listener.dart';
 
 void main() async {
-  F12021TelemetryListener listener = F12021TelemetryListener(20777);
+  F12022TelemetryListener listener = F12022TelemetryListener(20777);
   listener.start();
   listener.packetCarTelemetryDataStream.listen((packet) {
     print(packet.m_carTelemetryData[0].toString());
@@ -63,11 +63,11 @@ void main() async {
       <section class="summary">
           <h2>Libraries</h2>
         <dl>
-          <dt id="f1_2021_udp">
-  <span class="name"><a href="f1_2021_udp/f1_2021_udp-library.html">f1_2021_udp</a></span> 
+          <dt id="f1_2022_udp">
+  <span class="name"><a href="f1_2022_udp/f1_2022_udp-library.html">f1_2022_udp</a></span> 
 
 </dt>
-<dd>Package for listening Telemetry data from F1 2021 game. <a href="f1_2021_udp/f1_2021_udp-library.html">[...]</a>
+<dd>Package for listening Telemetry data from F1 2022 game. <a href="f1_2022_udp/f1_2022_udp-library.html">[...]</a>
 </dd>
 
         </dl>
@@ -83,14 +83,14 @@ void main() async {
 </header>
 
 <ol class="breadcrumbs gt-separated dark hidden-l" id="sidebar-nav">
-  <li class="self-crumb">f1_2021_udp package</li>
+  <li class="self-crumb">f1_2022_udp package</li>
 </ol>
 
 
-    <h5 class="hidden-xs"><span class="package-name">f1_2021_udp</span> <span class="package-kind">package</span></h5>
+    <h5 class="hidden-xs"><span class="package-name">f1_2022_udp</span> <span class="package-kind">package</span></h5>
     <ol>
       <li class="section-title">Libraries</li>
-      <li><a href="f1_2021_udp/f1_2021_udp-library.html">f1_2021_udp</a></li>
+      <li><a href="f1_2022_udp/f1_2022_udp-library.html">f1_2022_udp</a></li>
 </ol>
 
   </div>
@@ -102,7 +102,7 @@ void main() async {
 
 <footer>
   <span class="no-break">
-    f1_2021_udp
+    f1_2022_udp
       1.0.0
   </span>
 

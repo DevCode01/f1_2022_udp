@@ -82,9 +82,9 @@ struct PacketSessionData
 
 import 'dart:typed_data';
 
-import 'package:f1_2021_udp/src/parser/parser.dart';
-import 'package:f1_2021_udp/src/types/packet_header.dart';
-import 'package:f1_2021_udp/src/types/session/session.dart';
+import 'package:f1_2022_udp/src/parser/parser.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/types/session/session.dart';
 
 class SessionParser extends Parser<PacketSessionData> {
   @override
