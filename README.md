@@ -1,6 +1,6 @@
 # f1_2022_udp
 
-Package for listening Telemetry data from F1 2021 game.
+Package for listening Telemetry data from F1 2022 game.
 
 ## Example
 

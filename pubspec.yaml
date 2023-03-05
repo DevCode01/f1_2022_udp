@@ -1,5 +1,5 @@
 name: f1_2022_udp
-description: Package for listening Telemetry data from F1 2021 game.
+description: Package for listening Telemetry data from F1 2022 game.
 version: 1.0.0
 repository: https://github.com/AlfaSquaD/f1_2022_udp
 environment:

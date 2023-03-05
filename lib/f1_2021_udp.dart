@@ -1,6 +1,6 @@
-/// Package for listening Telemetry data from F1 2021 game.
+/// Package for listening Telemetry data from F1 2022 game.
 ///
-/// This package is based on the official F1 2021 game.
+/// This package is based on the official F1 2022 game.
 
 library f1_2022_udp;
 
