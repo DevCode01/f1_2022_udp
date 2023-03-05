@@ -10,7 +10,7 @@
                                        // 0x04 bit set-sector 2 valid, 0x08 bit set-sector 3 valid
 };*/
 
-import 'package:f1_2021_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
 
 class LapHistoryData {
   /// Lap time in milliseconds

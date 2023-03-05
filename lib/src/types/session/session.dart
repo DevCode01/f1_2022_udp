@@ -8,7 +8,7 @@ struct MarshalZone
 };
 */
 
-import 'package:f1_2021_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
 
 class MarshalZone {
   /// Fraction (0..1) of way through the lap the marshal zone starts

@@ -2,9 +2,9 @@
 ///
 /// This package is based on the official F1 2021 game.
 
-library f1_2021_udp;
+library f1_2022_udp;
 
-export 'src/F1_2021_telemery_listener.dart';
+export 'src/F1_2022_telemery_listener.dart';
 export 'src/types/car_damage/car_damage.dart';
 export 'src/types/car_setups/car_setups.dart';
 export 'src/types/car_status/car_status.dart';

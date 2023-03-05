@@ -3,21 +3,21 @@
 import 'dart:isolate';
 import 'dart:typed_data';
 
-import 'package:f1_2021_udp/src/parser/car_damage/car_damage_parser.dart';
-import 'package:f1_2021_udp/src/parser/car_setups/car_setups_parser.dart';
-import 'package:f1_2021_udp/src/parser/car_status/car_status_parser.dart';
-import 'package:f1_2021_udp/src/parser/car_telemetry/car_telemetry_parser.dart';
-import 'package:f1_2021_udp/src/parser/event/event_parser.dart';
-import 'package:f1_2021_udp/src/parser/final_classification/final_classification_parser.dart';
-import 'package:f1_2021_udp/src/parser/lap_data/lap_data_parser.dart';
-import 'package:f1_2021_udp/src/parser/lobby_info/lobby_info.dart';
-import 'package:f1_2021_udp/src/parser/motion/motion_parser.dart';
-import 'package:f1_2021_udp/src/parser/packet_header_parser.dart';
-import 'package:f1_2021_udp/src/parser/parser.dart';
-import 'package:f1_2021_udp/src/parser/participant/participant_parser.dart';
-import 'package:f1_2021_udp/src/parser/session/session_parser.dart';
-import 'package:f1_2021_udp/src/parser/session_history/session_history_parser.dart';
-import 'package:f1_2021_udp/src/types/packet_header.dart';
+import 'package:f1_2022_udp/src/parser/car_damage/car_damage_parser.dart';
+import 'package:f1_2022_udp/src/parser/car_setups/car_setups_parser.dart';
+import 'package:f1_2022_udp/src/parser/car_status/car_status_parser.dart';
+import 'package:f1_2022_udp/src/parser/car_telemetry/car_telemetry_parser.dart';
+import 'package:f1_2022_udp/src/parser/event/event_parser.dart';
+import 'package:f1_2022_udp/src/parser/final_classification/final_classification_parser.dart';
+import 'package:f1_2022_udp/src/parser/lap_data/lap_data_parser.dart';
+import 'package:f1_2022_udp/src/parser/lobby_info/lobby_info.dart';
+import 'package:f1_2022_udp/src/parser/motion/motion_parser.dart';
+import 'package:f1_2022_udp/src/parser/packet_header_parser.dart';
+import 'package:f1_2022_udp/src/parser/parser.dart';
+import 'package:f1_2022_udp/src/parser/participant/participant_parser.dart';
+import 'package:f1_2022_udp/src/parser/session/session_parser.dart';
+import 'package:f1_2022_udp/src/parser/session_history/session_history_parser.dart';
+import 'package:f1_2022_udp/src/types/packet_header.dart';
 import 'package:logger/logger.dart';
 
 const List<Type> all_parsers = [
