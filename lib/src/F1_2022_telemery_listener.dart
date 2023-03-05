@@ -203,8 +203,9 @@ class F12022TelemetryListener {
 /*
 static void _listenIsolate(List<Object> args) async {
     final SendPort sendPort = args[0] as SendPort;
-    final int port = 20778;
-    final UDP receiver = await UDP.bind(Endpoint.unicast(InternetAddress('127.0.0.1'), port: Port(port)));
+    final port = args[1] as int;
+    final String ipv4Address = args[2] as String;
+    final UDP receiver = await UDP.bind(Endpoint.unicast(InternetAddress(ipv4Address), port: Port(port)));
     _logger.i('Listening on address ${receiver.local.address} and port $port');
     receiver.asStream().listen((event) {
       if (event != null) {
@@ -216,6 +217,8 @@ static void _listenIsolate(List<Object> args) async {
   }
 
 */
+
+
 
 
   /// Create an isolate that listens for UDP packets
