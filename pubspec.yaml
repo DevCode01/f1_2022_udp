@@ -1,6 +1,6 @@
 name: f1_2022_udp
 description: Package for listening Telemetry data from F1 2022 game.
-version: 1.0.0
+version: 1.0.1
 repository: https://github.com/DevCode01/f1_2022_udp
 environment:
   sdk: '>=2.15.1 <3.0.0'
